@@ -1,8 +1,6 @@
 (function(){
-
 	var $$ = {};
 
-	//$$.eventAdd(window,"load",$$.set);
 	$$.eventAdd=function(t, m, f){
 
 		//other Browser
@@ -101,9 +99,6 @@
 		 */
 		set:function( option ){
 			if(!option){return}
-
-			//$$.ajax.httpoj = $$.ajax.createHttpRequest();
-			//var httpoj = createHttpRequest();
 			var httpoj = new $$.ajax.createHttpRequest();
 			if(!httpoj){return}
 			//open メソッド;

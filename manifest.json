@@ -1,19 +1,19 @@
 {
-	"name": "GmailSendChecker",
+	"name": "ChromeEx_onload",
 	"version": "1.1",
 	"manifest_version": 2,
 
-	"description": "GmailSendChecker",
+	"description": "ChromeEx_onload",
 
 	"icons": {
-		"16" : "contents/img/icon.png",
-		"48" : "contents/img/icon.png",
-		"128": "contents/img/icon_128.png"
+		"16" : "contents/img/Google_docs_16.png",
+		"48" : "contents/img/Google_docs_64.png",
+		"128": "contents/img/Google_docs_128.png"
 	},
 
 	"browser_action":{
-		"default_icon":"contents/img/icon.png",
-		"default_title":"navicast_bookmarklet",
+		"default_icon":"contents/img/Google_docs_16.png",
+		"default_title":"ChromeEx_onload",
 		"default_popup":"contents/popup.html"
 	},
 
@@ -24,8 +24,7 @@
 		],
 		"js":[
 			"contents/js/lib.js",
-			"contents/js/load.js",
-			"contents/js/init.js"
+			"contents/js/load.js"
 		]
 	}]
 }

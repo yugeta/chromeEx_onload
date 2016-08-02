@@ -2,13 +2,7 @@
 	
 	var $$={};
 	
-	
-	
-	$$.alert_x=function(val){
-		alert(val);
+	window.onload = function(){
+		alert("page-load-sample!!!");
 	};
-	
-	if(typeof($$NC)=="undefined"){$$NC={}}
-	window.$$NC.LOAD = $$;
-	return $$;
 })();
